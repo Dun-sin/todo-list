@@ -1,0 +1,9 @@
+.List {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inputContainer {
+	justify-self: flex-start;
+}

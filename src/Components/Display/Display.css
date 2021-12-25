@@ -1,0 +1,43 @@
+.todoContainer {
+	font-size: 14px;
+	background-color: rgba(15, 34, 49, 0.6);
+	border: 1px solid white;
+
+	/* Positioning */
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 10px;
+	width: 100%;
+
+	/* Flex */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	/* Transition */
+	transform: scale(1);
+	transition: all ease-in 0.3s;
+}
+
+.todoContainer:hover {
+	box-shadow: 5px 5px 10px black;
+	transform: scale(1.01);
+}
+
+.textContainer {
+	word-break: break-all;
+	width: 75%;
+}
+
+.iconContainer {
+	display: flex;
+	position: relative;
+	margin-right: 10px;
+	left: 10%;
+	width: 15%;
+	flex-direction: column;
+	font-size: 10px;
+	cursor: pointer;
+}
